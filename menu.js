@@ -80,16 +80,9 @@ function sideBar() {
     noStroke();
     fill(0);
     textSize(45);
-    text("SCORE", 980, 50);
-    text(score, 1010, 100);
-    text("STREAK", 980, 200);
-    text(streak, 1010, 250);
-    text("LONGEST", 970, 350);
-    text("STREAK", 970, 400);
-    text(long, 1010, 450);
-  
-    text("NOTES", 980, 550);
-    text("HIT", 980, 600);
+    text("SCORE", 500, 50);
+    text(score, 400, 100);
+
     var per = round((notes / tot) * 100);
     if (tot === 0) {
         per = "-";
